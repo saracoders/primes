@@ -413,3 +413,242 @@ border-radius: 0px;
 	    margin: 0px 2px;
 	}
 }
+
+
+/********Continuando*********************/
+.font{
+font-family: 'Open Sans'!important;
+}
+
+.package{
+	background: #f0f0f0;
+}
+.t2-purchase a, .text1-package {
+	color: #888; 
+}
+.btn-hero{
+	background: rgba(255, 255, 255, 0.07);
+	font-size: 1rem!important;
+	padding: 5px 10px !important;
+	
+}
+.purchase{
+	background: white;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: gray!important;
+}
+::-webkit-textarea-placeholder{
+	 color: gray!important;
+}
+:-moz-placeholder { color: gray; }
+.bg-gray{
+	background: #323a46 !important;
+	color: white !important;
+
+}
+.btn1{
+
+	padding: 30px 15px!important;
+	font-size: 2.5rem !important;
+}
+.btn2{
+	background: #09c1c4 !important;
+	color: white !important;
+	padding: 30px 15px!important;
+	font-size: 2.5rem!important;
+}
+
+
+.photo-customers{
+	height: 10rem;
+	width: 10rem;
+	border-radius: 50%;
+}
+.hero-three{
+	background: url('../img/background/contactus.jpg');
+	background-size: 100% 125%;
+	background-repeat: no-repeat;
+	background-position: 10% 0%;
+	background-attachment: fixed;
+}
+.btn-celeste{
+	background:#0BC0BF !important; 
+	color: white !important;
+	z-index: 10;
+	padding: 10px 30px!important;
+	font-size: 1.7rem!important;
+}
+.t2-purchase :hover{
+	text-shadow: 1px 0px 8px #0CC0BF!important;
+	font-size: 2rem;
+	font-weight: 600;
+}
+ .fa-twitter:hover, .fa-twitter:focus {
+    color: #0dc0c0;
+}
+ .fa-facebook:hover, .fa-facebook:focus {
+    color: blue;
+}
+.fa-linkedin:hover , .fa-linkedin:focus{
+	color: #007BB6;
+}
+.fa-pinterest:hover , .fa-pinterest:focus{
+	color: red;
+}
+.fa-google-plus:hover , .fa-google-plus:focus{
+	color:#D21617 ;
+}
+
+@media (max-width: 590px) {
+.hero-two {
+	background-image: url('../img/background/city.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: 10% 0%;
+}
+.hero-two div {
+	padding: 10% 3%;
+}
+.text-hero2{
+	line-height: 185%;
+	padding-top: 4%!important;
+	font-size: 2rem;
+}
+/* package*/
+.text1-package{
+	font-size: 1.5rem;
+}
+.text-hero2 a {
+	padding: 5% 0;
+	font-size: 70%!important;
+
+}
+.hero-row {
+	background: rgba(0,0,0,.6);
+}
+.customers, .ultime {
+	padding: 0 10%!important;
+}
+.purchase {
+	margin-bottom: 10%;
+}
+.photo-customers {
+	margin-top: 10%;
+}
+.text-customers{
+	margin-bottom: 5%;
+	line-height: 2;
+	font-size: 1.6rem;
+}
+
+input{
+	color: white;
+}
+}
+
+@media (min-width: 590px) and (max-width: 770px){
+.hero-two {
+	background-image: url('../img/background/city.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: 10% 0%;
+}
+.hero-two div {
+	padding: 15% 3%;
+}
+.hero-row {
+	background: rgba(0,0,0,.6);
+}
+.text-hero2 {
+	line-height: 185%;
+	padding: 5% 0 0!important;
+	font-size: 2.9rem;
+}
+/****Package*/
+.text1-package {
+	font-size: 1.7rem;
+}
+
+.purchase {
+	margin-bottom: 10%;
+}
+.t-purchase{
+	padding: 10% 0%;
+	background: #f0f0f0;
+	font-size: 20px;
+}
+
+}
+
+@media (min-width: 770px) {
+.hero-two {
+	background-image: url('../img/background/city.jpg');
+	background-size: 117% 207%;
+	background-repeat: no-repeat;
+	background-position: 10% 0%;
+
+}
+.hero-row {
+	background: rgba(0,0,0,.6);
+
+}
+.t2-purchase a, .text1-package {
+	font-size: 1.3rem; 
+}
+.max{
+	font-size: 130%;
+}
+.t-purchase{
+	padding: 10% 0%;
+	background: #f0f0f0;
+	font-size: 15px;
+}
+
+}
+@media (min-width: 1200px) {
+.hero-two {
+	background-image: url('../img/background/city.jpg');
+	background-size: 100% 150%;
+	background-repeat: no-repeat;
+	background-position: 3px 90px;
+	background-attachment: fixed;
+}
+.text-hero2 {
+	padding: 8% 0 2%!important;
+	font-size: 2rem;
+}
+.hero-row {
+	background: rgba(0,0,0,.6);
+	padding-bottom: 10%!important;
+
+}
+/***package*/
+.t2-purchase a, .text1-package {
+	
+	font-size: 1.4rem;
+    font-weight: 100; 
+}
+.max{
+	font-size: 170%;
+}
+.t-purchase{
+	padding: 10% 0%;
+	background: #f0f0f0;
+	font-size: 20px;
+}
+/**hero three*/
+.hero-three-t{
+	padding: 0 7%;
+}
+.columna2{
+	padding: 0 5%;
+}
+/**customers**/
+.text-customers {
+	padding: 0 18%;
+}
+.text-ultime{
+	padding: 0 18%;
+}
+}
