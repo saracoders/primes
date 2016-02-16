@@ -473,8 +473,6 @@ font-family: 'Open Sans'!important;
 	padding: 30px 15px!important;
 	font-size: 2.5rem!important;
 }
-
-
 .photo-customers{
 	height: 10rem;
 	width: 10rem;
@@ -482,11 +480,12 @@ font-family: 'Open Sans'!important;
 }
 .hero-three{
 	background: url('../img/background/contactus.jpg');
-	background-size: 100% 125%;
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: 10% 0%;
+	background-position: top;
 	background-attachment: fixed;
 }
+
 .btn-celeste{
 	background:#0BC0BF !important; 
 	color: white !important;
@@ -498,6 +497,7 @@ font-family: 'Open Sans'!important;
 	text-shadow: 1px 0px 8px #0CC0BF!important;
 	font-size: 2rem;
 	font-weight: 600;
+	color: blue;
 }
  .fa-twitter:hover, .fa-twitter:focus {
     color: #0dc0c0;
@@ -514,6 +514,16 @@ font-family: 'Open Sans'!important;
 .fa-google-plus:hover , .fa-google-plus:focus{
 	color:#D21617 ;
 }
+.grow:hover {
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+  margin-bottom: 3%;
+}
+.shadow :hover{
+	text-shadow: 1px 0px 8px #0CC0BF!important;
+}
+
 
 @media (max-width: 590px) {
 .hero-two {
@@ -545,6 +555,12 @@ font-family: 'Open Sans'!important;
 .customers, .ultime {
 	padding: 0 10%!important;
 }
+.h3-pd{
+	padding-left: 5%;
+}
+.h3-pd-{
+	padding-left: -5%;
+}
 .purchase {
 	margin-bottom: 10%;
 }
@@ -559,6 +575,10 @@ font-family: 'Open Sans'!important;
 
 input{
 	color: white;
+}
+.hero-three-t{
+	padding: 0 3%;
+	height: 1250px;
 }
 }
 
@@ -593,20 +613,30 @@ input{
 	background: #f0f0f0;
 	font-size: 20px;
 }
-
+.hero-three-t{
+	padding: 0 3%;
+	height: 1250px;
+}
 }
 
 @media (min-width: 770px) {
 .hero-two {
 	background-image: url('../img/background/city.jpg');
-	background-size: 117% 207%;
+	background-size: 117% 190%;
 	background-repeat: no-repeat;
 	background-position: 10% 0%;
 
 }
 .hero-row {
 	background: rgba(0,0,0,.6);
-
+}
+.text-hero2 {
+	padding: 9% 0 1%!important;
+	font-size: 2rem;
+}
+.hero-row {
+	background: rgba(0,0,0,.6);
+	padding-bottom: 8%!important;
 }
 .t2-purchase a, .text1-package {
 	font-size: 1.3rem; 
@@ -619,24 +649,26 @@ input{
 	background: #f0f0f0;
 	font-size: 15px;
 }
-
+.hero-three-t{
+	padding: 0 3%;
+	height: 800px;
+}
 }
 @media (min-width: 1200px) {
 .hero-two {
 	background-image: url('../img/background/city.jpg');
 	background-size: 100% 150%;
 	background-repeat: no-repeat;
-	background-position: 3px 90px;
+	background-position: 3px 30px;
 	background-attachment: fixed;
 }
 .text-hero2 {
-	padding: 8% 0 2%!important;
+	padding: 9% 0 1%!important;
 	font-size: 2rem;
 }
 .hero-row {
 	background: rgba(0,0,0,.6);
-	padding-bottom: 10%!important;
-
+	padding-bottom: 8%!important;
 }
 /***package*/
 .t2-purchase a, .text1-package {
@@ -653,9 +685,7 @@ input{
 	font-size: 20px;
 }
 /**hero three*/
-.hero-three-t{
-	padding: 0 7%;
-}
+
 .columna2{
 	padding: 0 5%;
 }
@@ -665,5 +695,11 @@ input{
 }
 .text-ultime{
 	padding: 0 18%;
+}
+.text-hero3{
+	font-size: 1.3em;
+}
+.text-hero3-p2{
+	font-size: 1.3em;
 }
 }
