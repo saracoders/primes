@@ -564,6 +564,11 @@ font-family: 'Open Sans'!important;
 .purchase {
 	margin-bottom: 10%;
 }
+.t-purchase{
+	padding: 10% 0%;
+	background: #f0f0f0;
+	font-size: 20px;
+}
 .photo-customers {
 	margin-top: 10%;
 }
@@ -680,9 +685,9 @@ input{
 	font-size: 170%;
 }
 .t-purchase{
-	padding: 10% 0%;
+	padding: 15% 0%;
 	background: #f0f0f0;
-	font-size: 20px;
+	font-size: 18px;
 }
 /**hero three*/
 
