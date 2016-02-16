@@ -13,6 +13,9 @@ strong {
 .mg-0{
 	margin: 0 !important;
 }
+.mg-0-3{
+    margin: 0 3%
+}
 .pd-0{
 	padding: 0;
 }

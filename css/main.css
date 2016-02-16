@@ -155,6 +155,8 @@ padding: 0 26px;
     float: left;
     width: 33%;
     list-style: none;
+	color: #888;
+
 }
 .contenido a{
 	text-decoration: none;
@@ -162,15 +164,19 @@ padding: 0 26px;
 	color: #22ACA9;
 }
 
-.contenido p{
-	color: #BABABA;
-}
+
 
 @media only screen and (max-width: 590px) {
 	.contenido .sub-cont{
 	    width: 100%;
 	    list-style: none;
 	}	
+	.contenido p{
+		font-size: 12px ;
+	}
+	.contenido a{
+	font-size: 40px;
+	}
 }
 
 /*Section More*/
@@ -217,7 +223,7 @@ padding: 0 26px;
 .texto-more h5{
 	color: #444;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .texto-more p{
@@ -246,6 +252,15 @@ padding: 0 26px;
 		padding: 0 !important;
 
 	}
+	.cont-more {
+		padding: 5%;
+	}
+	.texto-more p{
+    font-size: 10px;
+	}
+	.texto-more h5{
+    font-size: 15px;
+	}
 }
 
 
@@ -273,7 +288,7 @@ ul#filterOptions li:hover {
 }
 
 ul#filterOptions li a{
-color:#c4c4c4;  
+color:black;  
 font-size:15px;
 }
 ul#filterOptions li.cur a{
@@ -281,11 +296,11 @@ ul#filterOptions li.cur a{
 }
 ul#filterOptions li a:hover{
  text-decoration:none;  
- color:#7a7a7a;     
+ color:white;
 }
 .box img{
 max-width:100%;
-height: 300px !important;
+height: 250px !important;
 }
 .portfolio-item .thumbnail{
 margin:0;
